@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/Users/inbar/development/androidStudioWorkspace/ParseStarterProject/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/inbar/development/androidStudioWorkspace/ParseStarterProject/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/inbar/development/androidStudioWorkspace/ParseStarterProject/res/drawable-ldpi/ic_launcher.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/inbar/development/androidStudioWorkspace/ParseStarterProject/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/inbar/development/androidStudioWorkspace/ParseStarterProject/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="main"
+                path="/Users/inbar/development/androidStudioWorkspace/ParseStarterProject/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="/Users/inbar/development/androidStudioWorkspace/ParseStarterProject/res/values/strings.xml"
+                qualifiers="" >
+                <string name="hello" >Hello World, ParseStarterProjectActivity!
+                </string>
+                <string name="app_name" >ParseStarterProject
+                </string>
+            </file>
+        </source>
+        <source path="/Users/inbar/development/androidStudioWorkspace/ParseStarterProject/build/generated/res/rs/debug" />
+        <source path="/Users/inbar/development/androidStudioWorkspace/ParseStarterProject/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/inbar/development/androidStudioWorkspace/ParseStarterProject/src/debug/res" />
+    </dataSet>
+
+</merger>
